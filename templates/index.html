@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Girlfriend</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="chat-header">
+      <div class="avatar">💜</div>
+      <div class="title-wrap">
+        <h1>My Girl</h1>
+        <p id="status">online</p>
+      </div>
+    </header>
+
+    <main id="chat-window" class="chat-window"></main>
+
+    <div id="typing-indicator" class="typing hidden">
+      <span></span><span></span><span></span>
+    </div>
+
+    <form id="chat-form" class="chat-form">
+      <input id="message-input" type="text" placeholder="Type a message..." autocomplete="off" maxlength="500" required />
+      <button type="submit" aria-label="Send">➤</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
