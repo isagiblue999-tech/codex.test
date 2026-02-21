@@ -1,0 +1,8 @@
+Place your custom chat background image here.
+
+Suggested filename: bg.jpg
+Suggested location: static/bg.jpg
+
+Why this placeholder exists:
+- Binary files are intentionally excluded from this repository snapshot.
+- Add your own photo or wallpaper as static/bg.jpg and the UI will use it automatically.
